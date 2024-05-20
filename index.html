@@ -4629,13 +4629,17 @@ cards > * {
 grid-area: 1/1;
 transition: .4s;
 }
+cards > img{
+width: 200pt;
+height: 200pt;
+}
 cards figcaption {
 display: grid;
 align-items: end;
 font-family: sans-serif;
 font-size: 2.3rem;
 font-weight: bold;
-color: #0000;
+color: #fff;
 padding: .75rem;
 background: var(--c,#0009);
 clip-path: inset(0 var(--_i,100%) 0 0);
@@ -4660,10 +4664,11 @@ color: #fff;
 }
 body-cards {
 margin: 0;
-min-height: 100vh;
 display: grid;
 grid-auto-flow: column;
 place-content: center;
+column-gap: 10px;
+row-gap: 15px;
 }</style>
 </head>
 
@@ -4753,7 +4758,7 @@ Warning
 <p>Have you ever been ill and wondered what have you done to deserve it? You just recovered and your germ-filled snotty kid came home from kindergarten to infect you again?! You and your colleagues keep passing each other the flu like a sick game of table tennis? Let us know!</p>
 <p>Our mission is to track the spread of flu.</p>
 <p>Tell us your symptoms: what colour is your snot? How many times have you sneezed? What’s your body temperature? We will produce a fancy geographical map of the spread over the year.</p>
-<p>You can keep track of the health of your family by filling their own personal profiles. Perform contact tracing among them to understand how the flu spread in your household. Who’s responsible for grampas’ death?!</p>
+<p>You can keep track of the health of your family by filling their own personal profiles. Perform contact tracing among them to understand how the flu spread in your household. Who’s got grampa sneezing?!</p>
 <p>ALSO if you want like being a real scientist, you can send us a sample of your saliva. We will analyse it to identify the pathogens. If the disease is rare enough, it might get your name!</p>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
